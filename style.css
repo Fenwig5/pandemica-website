@@ -1,0 +1,488 @@
+
+body {background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: Georgia, "Times New Roman", serif;}
+
+header {color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", serif;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;}
+
+nav {padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Georgia, "Times New Roman", serif;
+        display: inline;
+        font-size: 1em;
+        text-transform: uppercase;
+        line-height: 1em;}
+
+a {text-decoration: none;}
+
+main {color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;}
+
+h1 {color: #ffffff;
+        margin: 8px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1em;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;}
+
+h2 {font-family: https://overpass-30e2.kxcdn.com/overpass.css;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 2em;}
+
+h3 {font-family: https://overpass-30e2.kxcdn.com/overpass.css;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.3em;}
+
+p {color: #ffffff;
+        font-family: Georgia, "Times New Roman", serif;}
+
+a:link {color: #33ddff;}
+
+a:visited {color: #ee33ff;}
+
+a:hover {color: #99ff33;}
+
+nav a:link {color: #ffffff;}
+
+nav a:visited {color: #ffffff;}
+
+nav a:hover {color: #99ff33;}
+
+ul {list-style-image: url(Resources/custom_marker.gif);}
+
+footer {color: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 75%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;}
+
+.nav-logo-above {display: block;
+        height: auto;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;}
+
+.nav-logo-between {display: none;}
+
+.top-nav-cat {margin: 2px;}
+
+.top-nav-cat-line {display: block;}
+
+.release-collection {text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;}
+
+.cover {display: inline-block;
+        width: 13%;
+        height: auto;
+        margin: 0.51%;}
+
+.cover:hover {position: relative;
+        width: 14%;
+        margin: 0%;}
+
+.playlist-info {text-align: center;
+        display: inline-block;}
+
+.playlist {display: block;}
+
+.buddy-playlist {display: block;
+      height: 360px;}
+
+/* .playlist-title {font-family: https://overpass-30e2.kxcdn.com/overpass.css;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 2em;} */
+
+.videoWrapper {position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;}
+
+.videoWrapper iframe {position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;}
+
+.clear {clear: both;}
+
+.home-clear {clear: both;}
+
+.video {text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;}
+
+.graphic {text-align: center;
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;}
+
+.center {text-align: center;}
+
+.resource-category {width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 480px;}
+
+.link-list {margin-top: 25px;}
+
+.hardware-software {width: 90%;
+        margin-left: auto;
+        margin-right: auto;}
+
+.hardware-software li {margin-top: 6px;
+        margin-bottom: 6px;}
+
+.individual-artist {width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;}
+
+.individual-logo {width: 200px;
+      height: auto;
+      padding-right: 10px;
+      display: inline-block;}
+
+.individual-info {width: 50%;
+      height: auto;
+      display: inline-block;}
+
+.artists {width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: solid;
+      overflow-x: auto;}
+
+.artist-table {border-collapse: collapse;
+      width: 100%;
+      text-align: center;}
+
+.artist-table th, td {padding: 5px;
+      border: 1px solid white;}
+
+.artist-table tr:nth-child(odd) {background-color: #000044;}
+
+.artist-table tr:nth-child(even) {background-color: black;}
+
+.artists li {margin-top: 8px;
+        margin-bottom: 8px;}
+
+.homemini-about {display: block;
+      width: 99%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.25;}
+
+.quote-author {text-align: right;
+      margin-right: 30px;}
+
+.homemini-music {width: 90%;
+      margin-left: auto;
+      margin-right: auto;}
+
+.homemini-videos {width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;}
+
+.homemini-graphics {width: 90%;
+      margin-left: auto;
+      margin-right: auto;}
+
+.homemini-tools-recommended-resources-merch {width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;}
+
+.socials-menu {list-style: none;
+      margin: auto;
+      padding-left: 0;}
+
+.socials-menu li {display: inline;}
+
+.social-icon {margin: 5px;
+      width: 25px;
+      height: auto;
+      padding-bottom: 5px;}
+
+.bio {width: 95%;
+      font-size: 1em;
+      margin-left: auto;
+      margin-right: auto;}
+
+.merch-pic {width: 15.5%;
+      height: auto;
+      display: inline-block;}
+
+.merch-pic-group {margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      right: -2.5%;}
+
+#top-nav {padding-top: 10px;
+      padding-bottom: 10px;}
+
+#bottom-nav {padding-top: 10px;
+      padding-bottom: 10px;}
+
+#bottom-nav a {margin: 2px;}
+
+#about-top-banner {width:93%;
+      height:10%;
+      overflow: hidden;}
+
+#hardware-photo {}
+
+#software-photo {}
+
+/*************** slideshow ***************/
+.my-slideshow {width: 99%;
+  margin-left: auto;
+  margin-right: auto;}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {width: 99%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  /* position: relative;
+  top: -30px; */
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/******************* media queries *****************************/
+
+@media screen and (min-width: 768px) {
+  h1 {font-size: 1.1em;}
+
+  h2 {font-size: 2.5em;}
+
+  h3 {font-size: 1.7em;}
+
+  .grid-container {display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 10% 80% 10%;}
+
+  .grid-child-left {margin-left: 10px;
+        padding-bottom: 10px;}
+
+  .grid-child-center {padding-bottom: 10px;}
+
+  .grid-child-right {margin-right: 10px;
+        padding-bottom: 10px;}
+
+  .nav-logo-above {width: 225px;}
+
+  .top-nav-cat {margin: 2px;}
+
+  .top-nav-cat-line {display: inline-block;}
+
+  .my-slideshow {display: inline-block;
+        float: left;
+        width: 59%;
+        padding-right: 12px;}
+
+  .homemini-about {}
+
+  .home-quote {width: 49%;
+        display: inline-block;}
+
+  .playlist-info {width: 49%;
+        text-align: left;
+        vertical-align: top;}
+
+  .playlist {display: inline-block;
+        width: 49%;
+        height: 600px;}
+
+  .buddy-playlist {display: inline-block;
+        width: 49%;}
+
+  .youtube-video {width: 49%;
+        display: inline-block;
+        margin-left: 0.3%;
+        margin-right: 0.3%;}
+
+  .graphic {display: inline-block;
+        width: 49%;
+        margin-left: 0.3%;
+        margin-right: 0.3%;}
+
+  .individual-artist {width: 45%;
+        display: inline-block;
+        margin-left: 2.3%;
+        margin-right: 2.3%;}
+
+  .individual-logo {display: block;
+        margin-left: 30%;
+        margin-right: 30%;}
+
+  .individual-info {display: block;
+        width: 99%;}
+
+  .resource-category {width: 49%;
+          display: inline-block;
+          vertical-align: top;
+          height: auto;}
+
+  .hardware-software li {margin-top: 8px;
+          margin-bottom: 8px;}
+
+  /* .generic-wrapper {display: inline-block;
+        width: 49%;
+        margin-left: 0.3%;
+        margin-right: 0.3%;} */
+
+  #hardware-photo {float: right;
+          padding-left: 25px;
+          width: 50%;}
+
+  #software-photo {float: left;
+          padding-right: 25px;
+          width: 50%;}
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {font-size: 1.2em;}
+
+  h2 {font-size: 3em;}
+
+  h3 {font-size: 2.1em;}
+
+  .grid-container {grid-template-columns: 15% 70% 15%;}
+
+  .nav-logo-above {display: none;}
+
+  .nav-logo-between {display: inline;
+      height: auto;
+      width: 250px;}
+
+  .top-nav-cat {position: relative;
+      top: -22px;}
+
+  .my-slideshow {width: 49%;
+      display: inline-block;
+      float: none;}
+
+  .homemini-about {width: 49%;
+      display: inline-block;
+      vertical-align: top;
+      height: auto;}
+
+  .home-quote {display: block;
+      width: 99%;}
+
+  .home-clear {clear: none;}
+
+  /* .home-quote {margin-left: auto;
+        margin-right: auto;} */
+
+  .graphic {width: 32%;
+      margin-left: 0.45%;
+      margin-right: 0.45%;}
+
+  .individual-logo {display: inline-block;
+        width: 180px;
+        margin-left: 0;
+        margin-right: 0;}
+
+  .individual-info {display: inline-block;
+        width: 49%;}
+
+  .hardware-software li {margin-top: 10px;
+      margin-bottom: 10px;}
+}
